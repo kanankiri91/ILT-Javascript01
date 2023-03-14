@@ -34,7 +34,7 @@ app.post('/contacts', async (req, res) =>{
         phone: req.body.phone
     });
     try {
-        await Item.save();
+        await items.save();
         res.status(201).send("Create new contacts");
     }
     catch {
