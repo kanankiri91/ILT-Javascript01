@@ -6,7 +6,7 @@ const Item = require('./db');
 
 app.use(express.json());
 
-mongoose.connect(`mongodb+srv://AlphaZero:GhKiuwAMzamgU7Q8@cluster0.aosfwos.mongodb.net/?retryWrites=true&w=majority`, {
+mongoose.connect(`mongodb+srv://AlphaZero:GhKiuwAMzamgU7Q8@cluster0.aosfwos.mongodb.net/mfahrianda_ILTjavascript?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
